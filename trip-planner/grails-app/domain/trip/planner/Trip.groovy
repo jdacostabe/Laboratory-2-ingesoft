@@ -14,7 +14,7 @@ class Trip {
 	
 	
     static constraints = {
-
+		
     }
     
 }
