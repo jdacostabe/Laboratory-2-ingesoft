@@ -14,7 +14,11 @@ class Trip {
 	
 	
     static constraints = {
-		
+		//Defined files optional
+		duration nullable:true
+		reservation nullable:true
+		recommendations nullable:true
+		duration nullable:true
     }
     
 }

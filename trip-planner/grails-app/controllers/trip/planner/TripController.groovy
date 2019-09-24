@@ -11,17 +11,15 @@ class TripController {
 
     def index(Integer max) {
         params.max = Math.min(max ?: 10, 100)
-        // respond Trip.findAllBydateBetween("2019-09-24 00:00:00", "2019-09-25 00:00:00")
-        // respond Trip.findAll(sort:"price")
         respond tripService.list(params), model:[tripCount: tripService.count()]
+    }
+    
+    def  orderByPrice(){
+        respond Trip.findAll(sort: "price")
     }
 
     def find() {
 
-    }
-
-    def orderByPrice(){
-        respond Trip.findAll(sort:"price")
     }
 
     def getcities(String name) {
