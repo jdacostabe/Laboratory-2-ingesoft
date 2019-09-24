@@ -18,6 +18,12 @@ class TripController {
 
     }
 
+    def coolFeature(String keyWord) {
+        //in develop
+    }
+    
+
+
     def show(Long id) {
         respond tripService.get(id)
     }
