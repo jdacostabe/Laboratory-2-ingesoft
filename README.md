@@ -3,8 +3,8 @@
 * Julian David Acosta Bello - jdacostab@unal.edu.co
 * Camilo Andres Gil Ballen - cgilb@unal.edu.co
 * Juan Diego Medina Naranjo - jmedinan@unal.edu.co
-## Feature Cool Implemented:
-// describir el feature que implelemtaremos
+## Feature Cool Implemented - Order Trips by Price:
+Many times people look for trips according to their price, the feature of sorting trips by price is useful to facilitate the search.
 
 ## How to run the App
 ### Requirements
