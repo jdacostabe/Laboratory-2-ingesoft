@@ -22,6 +22,10 @@ class TripController {
         respond Trip.findAllByName(name)
     }
 
+        def getcitiesbyprice(Double price) {
+        respond Trip.findAllByPrice(price)
+    }
+
     def show(Long id) {
         respond tripService.get(id)
     }
