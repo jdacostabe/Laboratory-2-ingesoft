@@ -10,3 +10,7 @@
 ### Requirements
  * Java Developer Kit (JDK) v.13.0
  * Grails 4.0
+### Execute
+ * Download the repository (master branch).
+ * In the directory (folder downloads)/Laboratory-2-ingesoft/trip-planner/ in a command prompt execute **grails run-app**.
+ * Open to  **http://localhost:8080**
