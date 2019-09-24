@@ -13,6 +13,10 @@ class TripController {
         params.max = Math.min(max ?: 10, 100)
         respond tripService.list(params), model:[tripCount: tripService.count()]
     }
+    
+    def  orderByPrice(){
+        respond Trip.findAll(sort: "price")
+    }
 
     def find() {
 
