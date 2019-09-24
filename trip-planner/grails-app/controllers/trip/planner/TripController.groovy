@@ -14,8 +14,12 @@ class TripController {
         respond tripService.list(params), model:[tripCount: tripService.count()]
     }
 
-    def findFeature(Integer max) {
+    def find() {
 
+    }
+
+    def getcities(String name) {
+        respond Trip.findAllByName(name)
     }
 
     def show(Long id) {
