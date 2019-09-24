@@ -1,0 +1,6 @@
+#Mon, 23 Sep 2019 17:45:23 -0500
+
+info.app.version=0.1
+info.app.name=trip-planner
+grails.env=development
+info.app.grailsVersion=4.0.0
