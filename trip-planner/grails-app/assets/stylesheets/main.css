@@ -11,6 +11,7 @@ h1, h2, h3, h4, h5, h6 {
 /* BASE LAYOUT */
 
 html {
+
     background-color: #ddd;
     background-image: -moz-linear-gradient(center top, #aaa, #ddd);
     background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #aaa), color-stop(1, #ddd));
@@ -42,7 +43,7 @@ body {
 }
 
 #grailsLogo {
-    background-color: #feb672;
+    background-color: #1089ff;
 }
 
 a:hover, a:active {
@@ -70,7 +71,43 @@ img {
     margin: 1em;
 }
 
+.navbar {
+    background-color: #64b2cd;
+}
+
+.navbar a img{
+    width: 80px;
+}
+
+#controllers{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#controllers ul {
+    list-style-type: none;
+  }
+
+.controller a{
+    text-decoration: none;
+    width:  auto;
+    color: #DFDFDF;
+}
+
+.buttoncontroller{
+    
+
+}
+
+
+
+#content{
+    min-height: 51%;
+}
+
 .content {
+    min-height: 43%;
 }
 
 .content h1 {
@@ -83,33 +120,7 @@ img {
     border: none;
 }
 
-.footer img {
-    height: 80px;
-    margin-right: 25px;
-    margin-bottom: 15px;
-    clear: bottom;
-}
 
-.footer strong a {
-    color: white;
-    text-decoration: none;
-    font-size: 1.1rem;
-}
-
-.footer {
-    background: #424649;
-    color: #ffffff;
-    clear: both;
-    font-size: 1em;
-    margin-top: 1.5em;
-    padding: 1em;
-    padding-bottom: 2em;
-    min-height: 1em;
-}
-
-.footer a {
-    color: #feb672;
-}
 
 .spinner {
     background: url(../images/spinner.gif) 50% 50% no-repeat transparent;
@@ -592,3 +603,68 @@ img.grails-logo {
     height:340px;
     margin-top:-10px;
 }
+
+
+#footer{
+    height: auto;
+    /* padding: 0; */
+    background-color: #222831;
+    color: #fff !important;
+    font-size: 25px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+  }
+  
+  #footer li{
+    list-style: none;;
+    display:  inline;
+    margin: 15px;
+  }
+  
+  #footer h6,h5{
+    color: #fff;
+    padding: 8px;
+    font-size: 20px;
+   }
+  
+  .info-footer{
+    display: flex;
+    justify-content: center;
+  }
+  
+  .info-footer h5{
+    font-size: 12px;
+  }
+  
+  .icon-container{
+    text-align: center;
+  }
+  .info-footer i{
+    font-size: 15px;
+  }
+  
+  .contact-info{
+    padding: 5px;
+    font-weight: lighter;
+  }
+  
+  .info-footer i{
+    margin: 15px;
+  
+  }
+  
+  .social-media{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 35px 30px;
+  }
+  
+  .social-media ul{
+      padding: 0;
+  }
+  
+  .social-media i{
+      width: 30px;
+      text-align: center;
+  }

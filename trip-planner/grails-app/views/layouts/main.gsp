@@ -3,6 +3,9 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+    integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+  
     <title>
         <g:layoutTitle default="Grails"/>
     </title>
@@ -17,7 +20,7 @@
 <body>
 
 <nav class="navbar navbar-expand-lg navbar-dark navbar-static-top" role="navigation">
-    <a class="navbar-brand" href="/#"><asset:image src="grails.svg" alt="Grails Logo"/></a>
+    <a class="navbar-brand" href="/#"><asset:image src="airplane.svg" alt="Grails Logo"/></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
@@ -32,32 +35,54 @@
 
 <g:layoutBody/>
 
-<div class="footer row" role="contentinfo">
-    <div class="col">
-        <a href="http://guides.grails.org" target="_blank">
-            <asset:image src="advancedgrails.svg" alt="Grails Guides" class="float-left"/>
-        </a>
-        <strong class="centered"><a href="http://guides.grails.org" target="_blank">Grails Guides</a></strong>
-        <p>Building your first Grails app? Looking to add security, or create a Single-Page-App? Check out the <a href="http://guides.grails.org" target="_blank">Grails Guides</a> for step-by-step tutorials.</p>
+  <footer id="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-lg-4 text-center">
+          <div class="info-footer">
+            <div class="contact-info">
+              <div class="icon-container">
+                <i class="fas fa-envelope"></i>
+              </div>
+              <div class ="mails">
+                <h5>jmedinan@unal.edu.co</h5>
+                <h5>jmedinan@unal.edu.co</h5>
+                <h5>jmedinan@unal.edu.co</h5>
+              </div>
+            </div>
+            <div class="contact-info">
+              <div class="icon-container">
+                <i class="fas fa-phone"></i>
+              </div>
+              <h5>+57 3212604514</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-12 social-media my-lg-4">
+          <ul>
+            <li>
+              <i class="fab fa-facebook-f"></i>
+            </li>
+            <li>
+              <i class="fab fa-twitter"></i>
+            </li>
+            <li>
+              <i class="fab fa-instagram"></i>
+            </li>
+            <li>
+              <i class="fab fa-youtube"></i>
+            </li>
+          </ul>
+        </div>
+        <div class="col-12 col-lg-4 my-auto text-center">
+          <h6>Terms and Conditons</h6>
+          <h6>Privacy</h6>
+        </div>
+      </div>
 
     </div>
-    <div class="col">
-        <a href="http://docs.grails.org" target="_blank">
-            <asset:image src="documentation.svg" alt="Grails Documentation" class="float-left"/>
-        </a>
-        <strong class="centered"><a href="http://docs.grails.org" target="_blank">Documentation</a></strong>
-        <p>Ready to dig in? You can find in-depth documentation for all the features of Grails in the <a href="http://docs.grails.org" target="_blank">User Guide</a>.</p>
+  </footer>
 
-    </div>
-
-    <div class="col">
-        <a href="https://grails-slack.cfapps.io" target="_blank">
-            <asset:image src="slack.svg" alt="Grails Slack" class="float-left"/>
-        </a>
-        <strong class="centered"><a href="https://grails-slack.cfapps.io" target="_blank">Join the Community</a></strong>
-        <p>Get feedback and share your experience with other Grails developers in the community <a href="https://grails-slack.cfapps.io" target="_blank">Slack channel</a>.</p>
-    </div>
-</div>
 
 
 <div id="spinner" class="spinner" style="display:none;">

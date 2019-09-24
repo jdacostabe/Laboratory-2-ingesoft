@@ -14,6 +14,18 @@ class TripController {
         respond tripService.list(params), model:[tripCount: tripService.count()]
     }
 
+    def find() {
+
+    }
+
+    def getcities(String name) {
+        respond Trip.findAllByName(name)
+    }
+
+        def getcitiesbyprice(Double price) {
+        respond Trip.findAllByPrice(price)
+    }
+
     def show(Long id) {
         respond tripService.get(id)
     }
