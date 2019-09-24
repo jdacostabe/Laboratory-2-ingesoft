@@ -17,3 +17,5 @@ Many times people look for trips according to their price, the feature of sortin
  * For start you create a your first trip.
  * Next you find the features by default, how create trip, view all trips, update trip, delete a trip. 
  * The features additionals are Find by City and Order by price. 
+ * In search by city, enter the keyword and submit the form. Then the results will be displayed.
+ * The Sort by price feature only access the view and now.
