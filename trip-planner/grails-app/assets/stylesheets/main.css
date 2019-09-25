@@ -604,15 +604,18 @@ img.grails-logo {
     margin-top:-10px;
 }
 
-
 #footer{
+    position: absolute;
+    /*width: auto;*/
+    bottom: 0;
+    width: 100%;
+    height: 25px;
+    padding-bottom: 16px;
     height: auto;
-    /* padding: 0; */
     background-color: #222831;
     color: #fff !important;
     font-size: 25px;
-    padding-bottom: 10px;
-    padding-top: 10px;
+    max-height: 28vw;
   }
   
   #footer li{
@@ -649,7 +652,7 @@ img.grails-logo {
   }
   
   .info-footer i{
-    margin: 15px;
+    margin: 10px;
   
   }
   
