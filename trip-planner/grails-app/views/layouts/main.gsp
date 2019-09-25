@@ -46,8 +46,8 @@
               </div>
               <div class ="mails">
                 <h5>jmedinan@unal.edu.co</h5>
-                <h5>jmedinan@unal.edu.co</h5>
-                <h5>jmedinan@unal.edu.co</h5>
+                <h5>jdacostabe@unal.edu.co</h5>
+                <h5>cgil@unal.edu.co</h5>
               </div>
             </div>
             <div class="contact-info">
